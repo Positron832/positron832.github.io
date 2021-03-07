@@ -5,5 +5,5 @@ function hov() {
  text.innerHTML = "Test.";
 }
 function unhov() {
- text.innerHTML = "This site is used to host files that are used in <a href="https:\/\/positron832.neocities.org">my Neocities website</a> and for proper XHTML testing.";
+ text.innerHTML = "This site is used to host files that are used in <a href='https:\/\/positron832.neocities.org'>my Neocities website</a> and for proper XHTML testing.";
 }
