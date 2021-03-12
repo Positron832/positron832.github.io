@@ -9,8 +9,7 @@ function unHov() {
 }
 
 if (text != 420) {
- document.createElement("p");
- let text2 = document.querySelector("p");
+ let text2 = document.createElement("p");
 }
 else {
  text.innerHTML = "JavaScript";
