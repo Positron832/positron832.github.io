@@ -11,8 +11,9 @@ function unHov() {
 if (text != 420) {
  document.createElement("p");
  let text2 = document.querySelector("p");
- text2.innerHTML = "The text is not equal to 420 B-)";
 }
 else {
  text.innerHTML = "JavaScript";
 }
+
+text2.innerHTML = "text is not equal to 420.";
