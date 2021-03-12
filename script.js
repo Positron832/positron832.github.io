@@ -14,5 +14,5 @@ if (text != 420) {
  text2.innerHTML = "The text is not equal to 420 B-)";
 }
 else {
- return 0;
+ text.innerHTML = "JavaScript";
 }
