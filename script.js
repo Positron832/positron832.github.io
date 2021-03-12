@@ -8,7 +8,7 @@ function unHov() {
  text.innerHTML = "This site is used to host files that are used in <a href='https:\/\/positron832.neocities.org'>my Neocities website</a> and for proper XHTML testing.";
 }
 
-if text == 420 {
+if text != 420 {
  document.createElement("p");
  let text2 = document.querySelector("p");
  text2.innerHTML = "The text is not equal to 420 B-)";
