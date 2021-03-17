@@ -1,18 +1,9 @@
-let text = document.querySelector("h1");
+let text = document.querySelector("span");
 text.onmouseover = function(){hov()};
 text.onmouseout = function(){unHov()};
 function hov() {
- text.innerHTML = "Test.";
+ text.innerHTML = "haaa haaa";
 }
 function unHov() {
  text.innerHTML = "This site is used to host files that are used in <a href='https:\/\/positron832.neocities.org'>my Neocities website</a> and for proper XHTML testing.";
 }
-
-if (text != 420) {
- let text2 = document.createElement("p");
-}
-else {
- text.innerHTML = "JavaScript";
-}
-
-text2.innerHTML = "text is not equal to 420.";
