@@ -1,0 +1,7 @@
+<!DOCTYPE dtd
+[
+<!ELEMENT book (bookName, author, price)>
+<!ELEMENT bookName (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
