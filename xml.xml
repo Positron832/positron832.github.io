@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE test SYSTEM "dtd.dtd">
-<book>
+<book xmlns="yeah">
   <bookName>Harry Potter</bookName>
   <author>J.K Rowling</author>
   <price>$999</price>
