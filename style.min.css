@@ -3,10 +3,10 @@ html{min-height:100%;font-size:62.5%}
 body{color:#000;background:#09f url(/images/background.webp) center no-repeat fixed;background-size:cover;min-height:100%;font-family:Arial,sans-serif;text-shadow:3px 3px rgba(0,0,0,.25);padding:0 1%;margin-top:0;text-align:center;word-wrap:break-word;font-size:1.6rem}
 #skip-link{position:absolute;top:-80px;left:0;border-bottom-right-radius:5px;background:darkSlateGrey;background:linear-gradient(darkSlateGrey,#000);color:#fff;line-height:40px;z-index:100;text-decoration:underline #fff;text-shadow:0 0 3px #fff;transition:.2s linear;height:40px;width:100px}
 #skip-link:focus{top:0;outline:0}
-#nav,nav{color:grey;background:snow;background:linear-gradient(snow,#d3d3d3);position:relative;border-radius:0 0 5px 5px;height:40px;padding:0 10px;font-size:2.4rem;text-shadow:0 0 4px snow;text-align:left;line-height:40px;cursor:default;box-shadow:-5px -5px 10px rgba(0,0,0,.4) inset,2px 4px 4px rgba(0,0,0,.1);-webkit-user-select:none;-ms-user-select:none;-moz-user-select:none;user-select:none}
-#nav a:link,nav a:link{color:green;background:linear-gradient(lightGrey,snow);border:1px solid #d3d3d3;padding:2px 4px;margin:auto}
-#nav a:focus,#nav a:hover,nav a:focus,nav a:hover{text-decoration:underline #0f0;outline:0;background:#d3d3d3;background:linear-gradient(snow,#d3d3d3);color:blue}
-h1{background:#0cf;background:rgba(0,255,255,.5);background:radial-gradient(circle,#0cf,transparent);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffff',endColorstr='#0000aaff',GradientType=0)";margin:.5% auto;font-size:4rem}
+#nav{color:grey;background:snow;background:linear-gradient(snow,#d3d3d3);position:relative;border-radius:0 0 5px 5px;height:40px;padding:0 10px;font-size:2.4rem;text-shadow:0 0 4px snow;text-align:left;line-height:40px;cursor:default;box-shadow:-5px -5px 10px rgba(0,0,0,.4) inset,2px 4px 4px rgba(0,0,0,.1);user-select:none}
+nav a:link{color:darkBlue;text-decoration:underline green;background:linear-gradient(lightGrey,snow);border:1px solid #d3d3d3;padding:2px 4px;margin:auto}
+nav a:focus,nav a:hover{text-decoration:underline #0f0;outline:0;background:#d3d3d3;background:linear-gradient(snow,#d3d3d3);color:blue}
+h1{background:#0cf;background:rgba(0,255,255,.5);background:radial-gradient(circle,#0cf,transparent);margin:.5% auto;font-size:4rem}
 p{font-size:2.4rem;margin:3px auto;background:#ccc;background:rgba(255,255,255,.6);text-shadow:1.54px 1.54px rgba(0,0,0,.25);padding:3px 5px;display:inline-block;border:1.5px solid snow;border-radius:3px;text-align:left}
 img{display:block;margin:0 auto}.other{float:right}
 .buttonIcon{border:0;margin:1px auto}
