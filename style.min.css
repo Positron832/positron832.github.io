@@ -13,3 +13,7 @@ img{display:block;margin:0 auto}.other{float:right}
 a:link,a:visited{color:darkBlue}
 a:hover,a:focus{color:blue;outline:0;}
 a:active{color:dodgerBlue}
+.columns{display:flex;max-width:600px;margin:2px auto}
+.columns>p{width:100%;margin:3px
+}::-webkit-scrollbar{width:9px;background:linear-gradient(to right,#bbb,#999)}
+::-webkit-scrollbar-thumb{background:linear-gradient(to right,#fff,#ccc);border-radius:10px}
