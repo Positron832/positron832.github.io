@@ -6,6 +6,6 @@
  </head>
  <body>
   <h1>This is a SSI test</h1>
-  <!--#include virtual="/text.txt"-->
+  <!--#include file="/text.txt" -->
  </body>
 </html>
