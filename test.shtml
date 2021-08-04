@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>SHTML test</title>
+ </head>
+ <body>
+  <h1>This is a SSI test</h1>
+  <!--#include virtual="/text.txt"-->
+ </body>
+</html>
