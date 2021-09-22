@@ -6,13 +6,13 @@ html {
 body {
   -moz-user-select: none;
   user-select: none;
-  background: radial-gradient(at 59% top, #ffffff10 35%, transparent 42%), linear-gradient(transparent 65%, #f006), repeating-linear-gradient(-45deg, #0f0b0c 15px, #111 20px, #0f0b0c 25px);
+  background: linear-gradient(#bbb, #fff 75%, #999);
   font-family: Arial, sans-serif;
   text-align: center;
   word-wrap: break-word;
   font-size: 1.6rem;
   overflow-anchor: auto;
-  image-rendering :-moz-crisp-edges;
+  image-rendering: -moz-crisp-edges;
   image-rendering: pixelated;
   max-width: 50%;
   margin: auto;
@@ -31,7 +31,7 @@ p {
   font-size: 2.4rem;
   margin: 0;
   background: #fff;
-  background: linear-gradient(#fff3,#fffc),repeating-linear-gradient(-67deg,#95eddb8a 19%,#0000 22%,#95eddb8a 49%);
+  background: linear-gradient(rgba(255, 255, 255, 0.27), rgba(255, 255, 255, 0.8)), repeating-linear-gradient(-67deg, rgba(255, 255, 255, 0.67) 19%, transparent 22%, rgba(255, 255, 255, 0.67) 49%);
   text-shadow: 1.54px 1.54px 1.14px #0004;
   padding: 3px 5px;
   border: 1.5px solid #aaa;
