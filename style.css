@@ -22,6 +22,8 @@ div {
  max-width: 100%;
  height: auto;
  -ms-interpolation-mode: nearest-neighbor;
+ width: 764px;
+ height: 42px;
 }
 
 #reflection {
