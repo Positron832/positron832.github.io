@@ -23,6 +23,11 @@ img {
  -ms-interpolation-mode: nearest-neighbor;
 }
 
+#reflection {
+ transform: translateY(42px) scaleY(-1);
+ -webkit-mask-image: linear-gradient(#0000, #0006);
+}
+
 @media print{
  img{
   opacity: 0;
