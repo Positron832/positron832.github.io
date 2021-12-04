@@ -29,7 +29,7 @@ div {
  height: 42px;
 }
 
-@supports (background: conic-gradient(red, red) {
+@supports (background: conic-gradient(red, red)) {
  #reflection {
   transform: translateY(42px) scaleY(-1);
   -webkit-mask-image: linear-gradient(#0000, #0006);
