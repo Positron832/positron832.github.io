@@ -1,61 +1,25 @@
 html {
  min-height: 100%;
- font-size: 62.5%;
 }
 
 body {
  -moz-user-select: none;
  user-select: none;
- background: linear-gradient(#bbb, #fff 75%, #999);
+ background: linear-gradient(#0f0, #060);
  font-family: Arial, sans-serif;
  text-align: center;
  word-wrap: break-word;
  font-size: 1.6rem;
  image-rendering: -moz-crisp-edges;
  image-rendering: pixelated;
- max-width: 50%;
- margin: auto;
-}
-h1 {
-  background: linear-gradient(rgba(51, 51, 51, 0.01) 50%, rgba(0, 0, 0, 0.06) 55%), radial-gradient(at top, #f5f5f5 20%, silver 70%, #a0a0a0);
-  margin: 0;
-  padding: 3.5px;
-  font-size: 3.2rem;
-  border-radius: 0 0 10px 10px;
-  box-shadow: 0 2px 2px rgba(255, 255, 255, 0.5) inset, 13px 43px 33px rgba(0, 0, 0, 0.24);
-  color: #646464;
-  text-shadow: 0 1px rgba(255, 255, 255, 0.53);
-  border: 1.5px solid #aaa;
-}
-p {
- margin: 0;
- background: #fff;
- background: linear-gradient(rgba(255, 255, 255, 0.27), rgba(255, 255, 255, 0.8)), repeating-linear-gradient(-67deg, rgba(255, 255, 255, 0.67) 19%, transparent 22%, rgba(255, 255, 255, 0.67) 49%);
- border: 1.5px solid #aaa;
- box-shadow: 13px 43px 33px rgba(0, 0, 0, 0.24);
 }
 
 img {
- display: block;
- margin: 3px auto;
+ inset: 0;
+ margin: auto;
  max-width: 100%;
  height: auto;
  -ms-interpolation-mode: nearest-neighbor;
-}
-
-a:link, a:visited{
- color: darkBlue;
-}
-
-a:focus, a:hover{
- color: blue;
- outline: 0;
- -webkit-tap-highlight-color: transparent;
- background: radial-gradient(at bottom, #fff 10%, transparent 70%);
-}
-
-a:active {
- color: orange;
 }
 
 @media print{
