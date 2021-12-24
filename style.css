@@ -3,14 +3,12 @@ html {
 }
 
 body {
- -moz-user-select: none;
  user-select: none;
  background: radial-gradient(#0f0, #060);
  font-family: Arial, sans-serif;
  text-align: center;
  word-wrap: break-word;
  font-size: 1.6rem;
- image-rendering: -moz-crisp-edges;
  image-rendering: pixelated;
 }
 
@@ -36,8 +34,4 @@ div {
  }
 }
 
-@media print{
- img{
-  opacity: 0;
- }
-}
+@media print{img{opacity: 0}}
