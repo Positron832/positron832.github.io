@@ -26,7 +26,7 @@ div {
 }
 
 @supports (background: conic-gradient(red, red)) {
- #reflection {
+ #r {
   transform: translateY(42px) scaleY(-1);
   -webkit-mask-image: linear-gradient(#0000, #0006);
  }
