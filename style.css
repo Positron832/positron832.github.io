@@ -5,10 +5,6 @@ html {
 body {
  user-select: none;
  background: radial-gradient(#0f0, #060);
- font-family: Arial, sans-serif;
- text-align: center;
- word-wrap: break-word;
- font-size: 1.6rem;
  image-rendering: pixelated;
 }
 
