@@ -1,9 +1,4 @@
-html {
- min-height: 100%;
-}
-
 body {
- user-select: none;
  background: #000;
  image-rendering: pixelated;
 }
